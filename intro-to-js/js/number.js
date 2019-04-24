@@ -1,5 +1,5 @@
 // Number data type
-var a = 10;
+var a = 20;
 console.log(a);
 var b = 100;
 console.log(b);
@@ -34,5 +34,8 @@ console.log(mod);
 var mod = b % c;
 console.log(mod);
 
-var e = "5";  // not a number but a string
+var e = '20';  // not a number but a string
 console.log(typeof e); // returns they type of variable 
+
+console.log( a === e); // strict comparison
+console.log( a == e); // loose comparison // truthy 
